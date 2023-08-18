@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz app</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand text-center w-100 fs-3 fw-semibold text-white" href="#">QUIZ GAME</a>
+          </div>
+        </nav>
+      </div>
+
+      <div class="allert">alert</div>
+      <div class="containerfluid1">
+        <div id="Start" class="btn btn-success  w-25 fs-5 fw-semibold">Start</div>
+      </div>
+     
+
+      <div id="box" class="container-fluid ">
+        <div class="heading text-center mt-4 ">
+          <h6>*All Questions Are Mandotary...</h6>
+          <h6>*Select Only One Answer Among The Four.</h6>
+          <p>*For Removing Before Selected Answer, Click Again On That Answer</p>
+         </div>
+        <div class="card bg-transparent border-0" style="width: 22rem; height: 440px;">
+            <div class="card-body">
+             
+              <h5 id="question" class="card-title"></h5>
+              <div class="choice">
+              </div>
+             <div class="collect mt-3 w-100 d-flex justify-content-center">
+                <button id="Next" class="btn btn-primary   text-center">Next</button>
+             </div>
+             <div class="scorecard fs-4 mt-2 ms-5"></div>
+            </div>
+          
+          </div>
+          
+      </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
